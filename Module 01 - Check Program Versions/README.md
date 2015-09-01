@@ -3,7 +3,7 @@
 ## General Information
 * Author: Michael Ham
 * Date: 09/01/2015
-* Script Name: CheckProgramVersion.ps1
+* Script Name: CheckProgramVersions.ps1
 * Description: This script is designed to parse a list of network hosts and return a list of specified software on the remote machines.  The script will return information as to whether or not the specified software exists, the software version if installed, and whether or not it is up-to-date.
 * Tested On: Windows Server 2008 R2, Windows 7, Windows 8
 
@@ -49,4 +49,4 @@ To set up and run the script, perform the following:
 
 ## Additional Resources
 * [Layman's Guide to PowerShell 2.0 Remoting](http://www.ravichaganti.com/blog/laymans-guide-to-powershell-2-0-remoting/)
-* [Video Demonstration](https://www.youtube.com/playlist?list=PL2K88uFC2iwfKotodZLeW1rEDpbbQFfAe)
+* [Video Demonstration](https://youtu.be/TPQg7sTLigY)
