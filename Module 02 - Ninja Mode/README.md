@@ -38,4 +38,4 @@ To set up and run the script, perform the following:
 ```
 
 ## Additional Resources
-* [Video Demonstration](URL GOES HERE)
+* [Video Demonstration](https://youtu.be/-IV4t7z_nog)
