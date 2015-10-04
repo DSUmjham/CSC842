@@ -2,7 +2,7 @@
 
 # Make sure the user passed in a file to read from
 if [ "$#" -ne 1 ]; then
-	printf "Usage: ./rpccheck.sh <IP Input Filename>\n"
+	printf "Usage: ./nullscanner.sh <IP Input Filename>\n"
 	exit
 fi
 
@@ -26,7 +26,7 @@ for (( i = 0; i < ${#HOSTARRAY[@]} ; i++ )) do
 		rpcclient -U "" -N -p 445 -c "lookupnames administrator" ${HOSTARRAY[$i]}
 	elif (rpcclient -U Guest -N -p 445 -c quit ${HOSTARRAY[$i]} &> /dev/null)
 	then
-		printf "[+] ${HOSTARRAY[$i]} NULL Session enabled with Guset user.\n"
+		printf "[+] ${HOSTARRAY[$i]} NULL Session enabled with Guest user.\n"
 		rpcclient -U Guest -N -p 445 -c srvinfo ${HOSTARRAY[$i]}		
 		rpcclient -U Guest -N -p 445 -c lsaquery ${HOSTARRAY[$i]}
 		rpcclient -U Guest -N -p 445 -c enumdomusers ${HOSTARRAY[$i]}

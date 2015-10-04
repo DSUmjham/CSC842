@@ -33,7 +33,7 @@ To set up and run the script, perform the following:
 Where **<host file>** is the name of the host list generated in step 1.
 
 ## Additional Resources
-* [Video Demonstration](https://youtu.be/-IV4t7z_nog)
+* [Video Demonstration](https://youtu.be/vQh0fVhzeCA)
 * [Carnal0wnage: More of using rpcclient to find usernames](http://carnal0wnage.attackresearch.com/2007/08/more-of-using-rpcclient-to-find.html)
 * [SANS: Plundering Windows Account Info via \*\*Authenticated** SMB Sessions ](https://pen-testing.sans.org/blog/2013/07/24/plundering-windows-account-info-via-authenticated-smb-sessions)
 * [TrustedSec: New Tool Release – RPC_ENUM – RID Cycling Attack](https://www.trustedsec.com/march-2013/new-tool-release-rpc_enum-rid-cycling-attack/)
