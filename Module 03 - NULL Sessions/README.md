@@ -24,9 +24,9 @@ To set up and run the script, perform the following:
 2. Copy the **nullscanner.sh** script to a location on the Kali machine.
 3. Mark the script as executable by running:
 ```sh
-# chmod +x ninjamode.sh
+# chmod +x nullscanner.sh
 ```
-4. To run the script, execute the following command to turn on Ninja Mode.  
+4. To run the script, execute the following command:  
 ```sh
 # ./nullscanner.sh <host file> 
 ```
