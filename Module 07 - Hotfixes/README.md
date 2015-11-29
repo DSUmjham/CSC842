@@ -20,14 +20,14 @@ To set up and run the script, perform the following:
 
 1. Copy the **Hotfixes.ps1** file to your Windows machine and make sure PowerShell execution privileges are set to allow script execution.
 2. Launch the **Hotfixes.ps1** script with the following PowerShell command to list all hotfixes installed on a machine:
-```PowerShell
-> .\Hotfixes.ps1 
-```
+	```PowerShell
+	> .\Hotfixes.ps1 
+	```
 
 3. To view the help of **Hotfixes.ps1** and se additional examples of how the script can be run:
-```PowerShell
-> Get-Help .\Hotfixes.ps1 
-```
+	```PowerShell
+	> Get-Help .\Hotfixes.ps1 
+	```
 
 ## Additional Resources
 * [Video Demonstration](https://youtu.be/bzOb9BfJMiQ)
