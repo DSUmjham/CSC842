@@ -23,6 +23,7 @@ To set up and run the script, perform the following:
 ```PowerShell
 > .\Hotfixes.ps1 
 ```
+
 3. To view the help of **Hotfixes.ps1** and se additional examples of how the script can be run:
 ```PowerShell
 > Get-Help .\Hotfixes.ps1 
