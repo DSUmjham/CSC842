@@ -19,21 +19,28 @@ The installation instructions assume the following dependencies are met:
 To set up and run the script, perform the following:
 
 1. Copy the **powershell_unpatch.rb** script file into your Metasploit directory.  The following commands assume you are running as root and intend to use Metasploit as root.
+
     ```bash
     # mkdir /root/.msf4/modules/post/windows/manage/
     # cp powershell_unpatch.rb /root/.msf4/modules/post/windows/manage/
     ```
+
 2. Launch the Metasploit framework.  Your postgresql database should be started before launching the framework.
+
 	```bash
 	# msfconsole
 	```
+
 3. Ensure that the module is loaded and no errors exist by typing:
-    ```bash
+
+	```bash
     msf > reload_all 
     ```
+
 4. Get a meterpreter shell on the victim box.
 5. Load up the module and set the appropriate options.
-    ```bash
+
+	```bash
     msf > use post/windows/manage/powershell_unpatch 
     msf post(powershell_unpatch) > show options
     
